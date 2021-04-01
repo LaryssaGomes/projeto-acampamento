@@ -78,3 +78,54 @@ a {
     font-weight: bold;
     cursor: pointer;
 }
+/*encontre aqui*/
+.find-content{
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    padding: 30px
+}
+.find-content .find-card {
+    position: relative;
+    max-width: 300px;
+    height: 180px;
+    background: #D6A649;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.find-card:hover{
+    height: 420px;
+}
+.find-content .find-card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.6);
+}
+.find-content .find-card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.find-content .find-card .find-description{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.find-content .find-card:hover .find-description{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -60px;
+}
