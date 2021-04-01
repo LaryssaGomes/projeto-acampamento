@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", Arial;
+    color: #222222;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*Menu*/
+.menu-container {
+    max-width: 990px;
+    margin:0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 99;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar a {
+    display: block;
+    color: #333;
+    padding: 0 10px;
+    font-weight: bold;
+}
+/*Background*/
+.main {
+    background-image: url('../img/acampamento.png');
+    height: 100%; 
+    width: 100%;
+    margin-top: -150px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-home{
+    background-color: rgba(0,0,0,0.35);
+    height: 100%;
+    width: 100%;
+}
+.text-home{
+    max-width: 990px;
+    height: 100%;
+    color: #000;
+    margin: 0 auto;
+    display:flex;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 0em;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.button-home{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 48px;
+    font-size: 18px;
+    background-color: Transparent;
+    border-color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
