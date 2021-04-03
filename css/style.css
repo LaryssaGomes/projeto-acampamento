@@ -79,13 +79,22 @@ a {
     cursor: pointer;
 }
 /*encontre aqui*/
-.find-content{
-    
+.title {
+    padding: 10px 0;
+}
+.find-here {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-self: center;
+    align-items: center;
+}
+.find-content{
+    max-width: 990px;
+    display: flex;
     flex-wrap: wrap;
-    padding: 30px
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .find-content .find-card {
     position: relative;
@@ -129,3 +138,24 @@ a {
     opacity: 1;
     margin-top: -60px;
 }
+/*mostpopular*/
+.most-popular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.popular-container{
+    max-width: 90%;
+    background-color: #BAD45F;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.popular-img{
+    flex: 1 0 300px;
+    margin: 0 auto;
+}
+
+
