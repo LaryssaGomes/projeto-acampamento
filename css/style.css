@@ -53,7 +53,7 @@ a {
 .text-home{
     max-width: 990px;
     height: 100%;
-    color: #000;
+    color: #fff;
     margin: 0 auto;
     display:flex;
     font-weight: 800;
@@ -73,8 +73,9 @@ a {
     margin: 10px 20px;
     border-radius: 48px;
     font-size: 18px;
+    color: #fff;
     background-color: Transparent;
-    border-color: #000;
+    border-color: #fff;
     font-weight: bold;
     cursor: pointer;
 }
