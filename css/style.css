@@ -151,11 +151,107 @@ a {
     background-color: #BAD45F;
     display: flex;
     margin: 0 auto;
+    
+}
+.popular-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.popular-text{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+}
+@media (max-width: 840px){
+    .popular-container{
+        flex-wrap: wrap;
+    }
+    .popular-text{
+        padding: 20px 0 20px 20px;
+    }
+}
+/*preco*/
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.preco {
+    padding: 30px 0;
+    margin-top: 60px;
+    background-color: #FFC2C2;
+    display: flex;
+    flex-direction: column;
+}
+.container-preco{
+    display: flex;
     flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
 }
-.popular-img{
-    flex: 1 0 300px;
-    margin: 0 auto;
+.card-preco{
+    min-width: 260px;
+    max-width: 300px;
+    margin: 20px;
+    border: 4px solid #000000;
+    text-align: center;
+    padding: 10px 15px;
+}
+.card-preco span {
+    font-weight: 800;
+    font-size: 40px;
+}
+.card-preco a{
+    border: 4px solid #000000;
+    border-radius: 30px;
+    color: #000000;
+    padding: 5px 10px;
+    margin: 10px 20px;
+} 
+.card-preco ul{
+    padding: 0 0 10px 0;
+}
+/*Galeria*/
+.gallery {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-container{
+    max-width: 990px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+.gallery-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.gallery-img:hover {
+    transform: scale(1.2);
+}
+.gallery-item:nth-child(5) {
+    grid-row-start: span 2;
+}
+@media (max-width: 768px) {
+    .gallery-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-
+/*footer*/
+footer {
+    background-color: #C4C4C4;
+    padding: 30px;
+    margin-top: 60px;
+}
