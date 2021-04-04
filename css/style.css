@@ -79,6 +79,15 @@ a {
     font-weight: bold;
     cursor: pointer;
 }
+@media (max-width:760px){
+    .text-home{
+        padding: 0 10px;
+        justify-content: center;
+        line-height: 30px;
+        letter-spacing: 0em;
+    }
+    
+}
 /*encontre aqui*/
 .title {
     padding: 10px 0;
@@ -173,6 +182,7 @@ a {
     .popular-text{
         padding: 20px 0 20px 20px;
     }
+  
 }
 /*preco*/
 .title {
